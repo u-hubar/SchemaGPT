@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "schemagpt"
+version = "0.1.0"
+description = "Python library for RDF Schemas generation from prompts using GPT-3 magic 🪄🪄🪄"
+authors = ["Uladzislau Hubar <hubar.uladzislau@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.26.4"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
